@@ -1,3 +1,4 @@
+#!/bin/bash
 #Function to display CPU information
 function display_cpu_info {
     echo "### CPU Information ###"
