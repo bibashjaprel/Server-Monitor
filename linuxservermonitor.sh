@@ -11,6 +11,12 @@ function display_memory_info {
     free -h
 }
 
+#Function to display System Summary Information 
+function display_system_summary_information {
+    echo -e "\n###System Summary Information"
+    vmstat
+}
+
 # Function to display disk usage
 function display_disk_info {
     echo -e "\n### Disk Usage ###"
@@ -33,7 +39,7 @@ function display_network_info {
 function display_top_processes {
     echo -e "\n### Top Processes ###"
     echo -e "Top CPU consuming processes:\n$(ps aux --sort=-%cpu | head -n 6)"
-    echo -e "\nTop memory consuming processes:\n$(ps aux --sort=-%mem | head -n 6)"
+    echo -e "\nTop memory consuming processes:\n$(ps aux --sort=-%mem | head -n 6 | cut -c1-100)"
 }
 
 # Function to display system load average
@@ -51,6 +57,7 @@ function display_system_info {
 
     display_cpu_info
     display_memory_info
+    display_system_summary_information 
     display_disk_info
     display_uptime
     display_network_info
