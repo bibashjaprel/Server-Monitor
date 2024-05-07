@@ -5,8 +5,14 @@ This is a simple Bash script for monitoring a Linux server. It provides informat
 ## Usage
 
 1. Clone or download the script.
-2. Make the script executable: `chmod +x server_monitor.sh`
-3. Run the script: `./server_monitor.sh`
+2. Make the script executable:
+3. ```bash
+4. chmod +x server_monitor.sh
+5. ```
+6. Run the script:
+7.  ```
+8.  ./server_monitor.sh
+9.  ```
 
 ## Features
 
