@@ -10,7 +10,7 @@ This is a simple Bash script for monitoring a Linux server. It provides informat
 4. chmod +x server_monitor.sh
 5. ```
 6. Run the script:
-7.  ```
+7.  ```bash
 8.  ./server_monitor.sh
 9.  ```
 
