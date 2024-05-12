@@ -48,6 +48,12 @@ function display_load_average {
     w
 }
 
+# Function to display logged-in users
+function display_logged_in_users {
+    echo -e "\n### Logged-in Users ###"
+    who
+}
+
 # Main function to display overall system information
 function display_system_info {
     clear
