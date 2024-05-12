@@ -6,15 +6,15 @@ This is a simple Bash script for monitoring a Linux server. It provides informat
 
 1. Clone or download the script.
 ```bash
-    git clone https://github.com/bibashjaprel/linuxservermonitor
+    git clone https://github.com/bibashjaprel/Server-Monitor
 ```
 2. Make the script executable:
  ```bash
-  chmod +x server_monitor.sh
+  chmod +x server-monitor.sh
  ```
 3. Run the script:
  ```bash
-  ./server_monitor.sh
+  ./server-monitor.sh
   ```
 
 ## Features
